@@ -1,0 +1,140 @@
+body {
+    background-color: #fafafa;
+    color: #262626;
+    font-family: "Segoe UI", Helvetica,Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    column-gap: 1.25rem;
+    display: grid;
+    grid-template-columns: 1fr 350px;
+    margin: 3rem auto 0;
+    width: 815px;
+}
+
+.imagemcelular {
+    background: url(../imagens/background_insta.png) no-repeat center;
+    height: 630px;
+    position: relative;
+}
+
+.imagemcelular img {
+    position: absolute;
+    top: 24px;
+    left: 146px;
+}
+
+.form {
+    text-align: center;
+}
+
+.form__logo {
+    margin-bottom: 1.25rem;
+    margin-top: 1.25rem;
+}
+
+.form form {
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    margin-bottom: 0.625rem;
+    margin-top: 26px;
+    padding: 1.25rem 2.5rem;
+}
+
+.form form input {
+    border: 1px solid #dbdbdb;
+    border-radius: 0.1875rem;
+    box-sizing: border-box;
+    height: 2.1875rem;
+    margin-bottom: 0.25rem;
+    padding: 0 0.5rem;
+    width: 100%;
+}
+
+.form form button {
+    background-color: #b2dffc;
+    color: #fff;
+    border: none;
+    border-radius: 0.25rem;
+    margin-top: 0.75rem;
+    font-weight: bold;
+    height: 1.875rem;
+    width: 100%;
+}
+
+.form__OU {
+    align-items: center;
+    display: flex;
+    color: #8e8e8e;
+    font-size: 0.8125rem;
+    justify-content: space-between;
+    margin: 1rem 0 1.625rem;
+}
+
+.form__OU::after, .form__OU::before {
+    background-color: #dbdbdb;
+    display: block;
+    content: '';
+    width: 106px;
+    height: 1px;
+}
+
+.form__entrarfacebook {
+    align-items: center;
+    color: #385185;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    margin: 0 auto 1.125rem;
+}
+
+.form__entrarfacebook img {
+    width: 10%;
+}
+
+.form__esqueceusenha {
+    color: #00376b;
+    font-size: 0.75rem;
+}
+
+.cadastre-se {
+    border: 1px solid #dbdbdb;
+    border-radius: 0.1875rem;
+    padding: 0.625rem;
+    margin-bottom: 1.25rem;
+}
+
+.cadastre-se a {
+    color: #0095f6;
+}
+
+.baixarapp p {
+    font-size: 0.875rem;
+}
+
+.baixarapp img {
+    width: 136px;
+}
+
+.footer {
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 3.5rem;
+    width: 1000px;
+    margin-bottom: 2.5rem;
+}
+
+.footer nav {
+    margin-bottom: 1.25rem;
+}
+.footer nav a, .footer span {
+    color: #8e8e8e;
+    font-size: 0.75rem;
+    margin: 0 0.375rem ;
+}
